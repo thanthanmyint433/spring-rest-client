@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <form th:action="@{/user/}" method="post">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label >Number of User Display</label>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <input type="number" id="limit" name="limit" class="form-control"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
