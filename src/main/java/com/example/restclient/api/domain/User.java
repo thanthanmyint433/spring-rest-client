@@ -1,5 +1,5 @@
 
-package com.example.restclient.api;
+package com.example.restclient.api.domain;
 
 import java.io.Serializable;
 import java.util.HashMap;

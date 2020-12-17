@@ -1,10 +1,10 @@
 
-package com.example.restclient.api;
+package com.example.restclient.api.domain;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Baz {
+public class Bar {
 
     private String type;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();

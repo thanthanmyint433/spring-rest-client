@@ -1,8 +1,8 @@
-package com.example.restclient.api;
+package com.example.restclient.api.domain;
 
-import com.example.Bar;
-import com.example.Baz;
-import com.example.Foo;
+import com.example.restclient.api.domain.Bar;
+import com.example.restclient.api.domain.Baz;
+import com.example.restclient.api.domain.Foo;
 
 import java.util.HashMap;
 import java.util.Map;

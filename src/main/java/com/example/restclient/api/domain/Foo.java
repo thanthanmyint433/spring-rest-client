@@ -1,5 +1,5 @@
 
-package com.example.restclient.api;
+package com.example.restclient.api.domain;
 
 import java.util.HashMap;
 import java.util.Map;
