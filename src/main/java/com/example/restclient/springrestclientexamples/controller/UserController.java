@@ -28,7 +28,10 @@ public class UserController {
         if(limit==0 || limit==null){
             limit=10;
         }
-        model.addAttribute("users",apiService.getUser(limit));
+//        Model model1 = model.addAttribute("users", apiService
+//                .getUser(serverWebExchange
+//                        .getFormData()
+//                        .map(data -> new Integer(data.getFirst("limit")));
         return "userlist";
 
     }
